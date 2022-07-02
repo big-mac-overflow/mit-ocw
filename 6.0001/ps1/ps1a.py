@@ -9,7 +9,7 @@
 # process continued until they have saved enough for the house
 
 annual_salary = float(input('Enter your annual salary: '))                              # taking input of user's annual salary and casting it into float
-portion_saved = float(input('Enter the percent of your salary to save,as a decimal: '))        # taking input of the portion of salary, user wants to set aside to buy house and casting it into float
+portion_saved = float(input('Enter the percent of your salary to save,as a decimal: ')) # taking input of the portion of salary, user wants to set aside to buy house and casting it into float
 total_cost = float(input('Enter the cost of your dream home: '))                        # taking input of total cost of house and casting it into float
 
 portion_down_payment = 0.25                                                             # the down payment user has to pay (equal to 25% of total cost of house)
