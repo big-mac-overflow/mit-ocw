@@ -23,7 +23,7 @@ r = 0.04                                                                        
 monthly_saving_from_salary = (annual_salary/12) * portion_saved                         # amount of money user is setting aside on a MONTHLY basis from their salary
 
 while current_savings < down_payment:                                                   # user needs to save money until they have equal or more than the down-payment
-    current_savings += monthly_saving_from_salary + ((current_savings) * r / 12)        # refer PSEUDOCODE
+    current_savings += monthly_saving_from_salary + ((current_savings) * r / 12)        # refer SOLUTION(lines 3-9)
     no_of_months += 1                                                                   # incrementing counter by one
 
 print('Number of months: ', no_of_months)
