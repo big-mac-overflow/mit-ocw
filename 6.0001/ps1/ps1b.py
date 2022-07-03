@@ -28,6 +28,6 @@ while current_savings < down_payment:
     
     if no_of_months % 6 == 0:
         annual_salary += annual_salary * semi_annual_raise  
-        monthly_saving_from_salary = ( annual_salary / 12 ) * portion_saved                        
+        monthly_saving_from_salary = ( annual_salary / 12 ) * portion_saved      # why are we writing this here again if we have written the same on line 23? because the compiler is parsing top to bottom and so even if line 30 updates the 'annual_salary' variable, it still doesn't update the 'monthly_saving_from_salary' variable since the compiler doesn't parse line 23 after line 30               
 
 print( 'Number of months: ', no_of_months )
