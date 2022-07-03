@@ -9,7 +9,7 @@ print("\nYou got out of the Lost Forest!\n\o/")
 # PROBLEM
 
 # Try expanding this code to show a sad face if you go right twice and flip the table any more times than that.
-# Hint: use a counter
+# Hint: use a counter 
 
  
    
