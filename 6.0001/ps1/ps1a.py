@@ -1,6 +1,6 @@
 # Part A: House Hunting
 
-# PSEUDOCODE
+# SOLUTION
 # User gets salary,
 # sets aside a part of it
 # invests this part
