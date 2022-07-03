@@ -19,11 +19,6 @@ print("\nYou got out of the Lost Forest!\n\o/")
 # right=3, show sad face
 # right>3, flip table
 
-# SIMPLE PROBLEM DESCRIPTION
-# right<=2, show happy face
-# right=3, show sad face
-# right>3, flip table
-
 # Taking user input
 n = input("You are in the Lost Forest\n****************\n****************\n :)\n****************\n****************\nGo left or right? ")
 
